@@ -25,7 +25,7 @@ Users should be able to:
 ### Screenshot
 - Destop Preview:
 ![Desktop Preview](screenshot/desktop-preview.png)
--Mobile Preview (375px);
+- Mobile Preview (375px);
 ![Mobile Preview](screenshot/mobile-preview.png)
 ![Mobile Preview](screenshot/mobile_preview.png)
 
