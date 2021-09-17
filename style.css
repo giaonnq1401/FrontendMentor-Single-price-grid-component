@@ -160,7 +160,6 @@ footer
 {
     .block-container
     {
-        flex-direction: column;
         justify-content: center;
         width: auto;
     }
@@ -194,5 +193,23 @@ footer
     .block-container #whyus .content_whyus
     {
         margin: 8% 0% 8% 8%;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    .block-container #intro
+    {
+        width: 300px;
+    }
+
+    .block-container #subscription
+    {
+        width: 300px;
+    }
+
+    .block-container #whyus
+    {
+        width: 300px;
     }
 }
