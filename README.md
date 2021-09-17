@@ -23,8 +23,9 @@ Users should be able to:
 - See a hover state on desktop for the Sign Up call-to-action
 
 ### Screenshot
-
+- Destop Preview:
 ![Desktop Preview](screenshot/desktop-preview.png)
+-Mobile Preview (375px);
 ![Mobile Preview](screenshot/mobile-preview.png)
 
 
@@ -46,8 +47,6 @@ Users should be able to:
 
 - How to use CSS flex Component
 
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
