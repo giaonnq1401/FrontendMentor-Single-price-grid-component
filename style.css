@@ -1,0 +1,198 @@
+:root
+{
+    /*color*/
+    --cyan: hsl(179, 62%, 43%);
+    --cyan-light: hsl(179, 60%, 56%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+
+    /*typography*/
+    --font-family: 'Karla';
+}
+
+*::before
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: var(--light-gray);
+    font-family: var(--font-family);
+}
+
+main
+{
+    display: flex;
+    justify-content: center;
+}
+
+.block-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: 5% 5%;
+}
+
+.block-container .block
+{
+    width: 350px;
+    height: 270px;
+}
+
+.block-container #intro
+{
+    background-color: white;
+    width: 700px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.block-container #intro .content_intro
+{
+    margin: 9% 10% 0% 5%;
+}
+.block-container #intro h1
+{
+    color: var(--cyan);
+}
+.block-container #intro h2
+{
+    color: var(--bright-yellow);
+    font-size: 17px;
+    text-shadow: 1px 1px 2px;
+}
+.block-container #intro .para1
+{
+    color: var(--grayish-blue);
+    line-height: 1.5;
+}
+
+.block-container #subscription
+{
+    background-color: var(--cyan);
+    border-bottom-left-radius: 10px;
+}
+.block-container #subscription .content_subs
+{
+    margin: 10% 5% 0% 10%;
+    color: white;
+}
+.block-container #subscription h3
+{
+    font-size: 19px;
+}
+.block-container #subscription strong
+{
+    font-size: 2rem;
+}
+.block-container #subscription span
+{
+    opacity: 0.7;
+    vertical-align: super;
+    margin-left: 0.5em;;
+}
+.block-container #subscription .para2
+{
+    opacity: 0.8;
+    padding: 0 0 6% 0;
+}
+.block-container #subscription button
+{
+    background-color: var(--bright-yellow);
+    width: 85%;
+    height: 2.5rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.block-container #subscription button:hover
+{
+    opacity: 0.8;
+}
+
+.block-container #whyus
+{
+    background-color: var(--cyan-light);
+    border-bottom-right-radius: 10px;
+}
+.block-container #whyus .content_whyus
+{
+    margin: 10% 5% 0% 10%;
+    color: white;
+}
+.block-container #whyus h3
+{
+    font-size: 19px;
+}
+.block-container #whyus ul
+{
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+    opacity: 0.8;
+    line-height: 1.5;
+}
+
+footer
+{
+    margin-top: 3em;
+}
+.attribution
+{
+    text-align: center;
+    font-size: 0.8em;
+    color: var(--cyan);
+}
+.attribution a
+{
+    color: var(--bright-yellow);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 700px)
+{
+    .block-container
+    {
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+    }
+    .block-container #intro
+    {
+        width: 400px;
+        height: auto;
+    }
+    .block-container #intro .content_intro
+    {
+        margin: 8% 10% 8% 8%;
+    }
+
+    .block-container #subscription
+    {
+        width: 400px;
+        height: auto;
+        border-radius: 0;
+    }
+    .block-container #subscription .content_subs
+    {
+        margin: 8% 0% 8% 8%;
+    }
+
+    .block-container #whyus
+    {
+        width: 400px;
+        height: auto;
+        border-bottom-left-radius: 10px;
+    }
+    .block-container #whyus .content_whyus
+    {
+        margin: 8% 0% 8% 8%;
+    }
+}
