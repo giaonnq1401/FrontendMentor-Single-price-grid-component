@@ -27,7 +27,6 @@ Users should be able to:
 ![Desktop Preview](screenshot/desktop-preview.png)
 - Mobile Preview (375px):
 ![Mobile Preview](screenshot/mobile-preview.png)
-![Mobile Preview](screenshot/mobile_preview.png)
 
 
 ### Links
