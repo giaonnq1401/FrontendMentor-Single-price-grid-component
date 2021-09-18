@@ -25,7 +25,8 @@ Users should be able to:
 ### Screenshot
 - Desktop Preview:
 ![Desktop Preview](screenshot/desktop-preview.png)
-- Mobile Preview:
+- Mobile Preview (375px):
+
 ![Mobile Preview](screenshot/mobile-preview.png)
 
 
