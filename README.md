@@ -23,9 +23,9 @@ Users should be able to:
 - See a hover state on desktop for the Sign Up call-to-action
 
 ### Screenshot
-- Destop Preview:
+- Desktop Preview:
 ![Desktop Preview](screenshot/desktop-preview.png)
-- Mobile Preview (375px):
+- Mobile Preview:
 ![Mobile Preview](screenshot/mobile-preview.png)
 
 
