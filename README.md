@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/giaonnq1401/single-price-grid-component)
-- Live Site URL: [GitHub Pages](https://giaonnq1401.github.io/single-price-grid-component/)
+- Solution URL: [GitHub](https://github.com/giaonnq1401/FrontendMentor-Single-price-grid-component)
+- Live Site URL: [GitHub Pages](https://giaonnq1401.github.io/FrontendMentor-Single-price-grid-component/)
 
 ## My process
 
